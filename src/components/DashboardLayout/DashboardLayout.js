@@ -2,7 +2,7 @@ import Header from "../Header/Searchbar";
 import Footer from "../Footer/Foot";
 import Main from "../Main/Main";
 
-export default function DashboardLayout({ children})  {
+export default function DashboardLayout({ children }) {
     return (
         <div style={{
             display: "flex",
@@ -13,5 +13,4 @@ export default function DashboardLayout({ children})  {
 
     );
 }
-    
-           
+

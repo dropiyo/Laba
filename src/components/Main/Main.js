@@ -1,5 +1,8 @@
-export default function Main   ({children}) {
+export default function Main({ children }) {
     return (
-        <div>{children} </div>
+        <div style={{
+            display: 'flex',
+            justifyContent: "center"
+        }}>{children} </div>
     )
 }

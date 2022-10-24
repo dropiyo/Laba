@@ -1,8 +1,10 @@
 import DashboardLayout from "./components/DashboardLayout/DashboardLayout";
-import Style from "./Style.css";
+import AuthForm from "./containers/AuthForm/AuthForm";
 
 export function App() {
-
-  return <DashboardLayout>
-    LOLOLOLO </DashboardLayout>;
+  return (
+    <DashboardLayout>
+      <AuthForm />
+    </DashboardLayout>
+  );
 }
